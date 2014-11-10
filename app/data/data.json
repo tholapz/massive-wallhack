@@ -1,0 +1,101 @@
+{
+    "data" : [],
+    "text" : {
+      "view_home": {
+        "headline1": "Always a pleasure scaffolding your apps.",
+        "headline2": "Try these default modals views:",
+        "buttons": {
+          "error": {
+            "text": "ERROR",
+            "route": "error/generic",
+            "display": "true"
+          },
+          "loading": {
+            "text": "LOADING",
+            "route": "loading/generic",
+            "display": "true"
+          },
+          "work": {
+            "text": "work",
+            "route": "work",
+            "display": "true"
+          }
+        }
+      },
+      "view_work": {
+        "title": "This is a title",
+        "buttons": {
+          "home": {
+            "text": "home",
+            "route": "home",
+            "display": "true"
+          }
+        }
+        },
+      "views_error": {
+        "generic": {
+          "headline1": "Error",
+          "button": {
+            "text": "Close",
+            "route": "home",
+            "display": "true"
+          },
+          "paragraph1": "Sorry but we are unable to process your request at this time."
+        },
+        "geo": {
+          "headline1": "This App is Not Available in Your Location",
+          "button": {
+              "text": "Close",
+              "route": "home",
+              "display": "false"
+          },
+          "paragraph1": "Thank you for your interest."
+        },
+        "window": {
+          "headline1": "Window Closed",
+          "button": {
+              "text": "Close",
+              "display": "false",
+              "route": "home"
+          },
+          "paragraph1": "Sorry but we are unable to process your request at this time."
+        }
+      },
+      "views_loading": {
+        "generic": {
+          "headline1": "Gathering Data",
+          "headline2": "Loading...",
+          "paragraph1": "We are attempting to process your request at this time."
+        }
+      }
+    },
+    "css" : {},
+    "settings" : {
+        "window_status" : 0,
+        "apiKey" : "",
+        "secretKey" : "",
+        "episode_id" : "",
+        "countries" : "US",
+        "google_analytics" : "UA-XXXXX-X",
+        "vote_limit" : ""
+    },
+    "social" : {
+        "fb" : {
+            "id" : "444172322357134",
+            "scope" : "email",
+            "share" : {
+                "name" : "",
+                "showURL" : "",
+                "link" : "",
+                "caption" : "",
+                "text" : "",
+                "picture" : "",
+                "redirect_uri" : "",
+                "description" : ""
+            }
+        },
+        "twitter" : {
+            "tweet" : ""
+        }
+    }
+}

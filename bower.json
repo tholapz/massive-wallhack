@@ -1,0 +1,15 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "dependencies": { 
+    "bootstrap-sass-official": "~3.1.0", 
+    "modernizr": "~2.8.1",
+    "json2": "*",
+    "jquery": "~2.1.1",
+    "lodash": "~2.4.1",
+    "backbone": "~1.1.2",
+    "tl-crypto-js": "~3.1.2",
+    "geo-model": "http://10.10.10.43:7990/scm/wc/geo-model.git",
+    "google-model": "http://10.10.10.43:7990/scm/wc/google-model.git"
+  }
+}
